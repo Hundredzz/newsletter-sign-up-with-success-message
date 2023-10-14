@@ -1,0 +1,50 @@
+@media screen and (max-width: 375px) {
+    body{
+        background-color: var(--White);
+    }
+    .main{
+        width: 375px;
+        max-height: 842px;
+        height: 842px;
+        display: block;
+        background-color: var(--White);
+        position: relative;
+        padding: 0;
+    }
+    .news-letter-container{
+        display: block;
+        padding: 0;
+        position: relative;
+    }
+    .form-container{
+        position: absolute;
+        margin-top: 300px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    .side{
+        position: absolute;
+        top: 0;
+    }
+    .success-page{
+        padding: 0;
+        height: 842px;
+        max-height: 842px;
+    }
+    .success-container{
+        padding: 0;
+        max-width: 100%;
+        padding-top: 9rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        max-height: 842px;
+    }
+    #dismiss{
+        margin-top: 280px;
+    }
+}
